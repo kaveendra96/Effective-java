@@ -9,6 +9,7 @@ public class Main {
         Singleton singleton = Singleton.getInstance();
         singleton.startConnection();
 
-
+        //Singleton with enum
+        SingletonWithEnum.INSTANCE.connectToDB();
     }
 }
