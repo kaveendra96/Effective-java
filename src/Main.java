@@ -11,5 +11,7 @@ public class Main {
 
         //Singleton with enum
         SingletonWithEnum.INSTANCE.connectToDB();
+        //private constructor
+        System.out.println(UtilClass.random());
     }
 }
